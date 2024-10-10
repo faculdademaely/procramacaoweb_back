@@ -1,5 +1,5 @@
 import { describe } from "node:test";
-import {DevDataSource} from "../connections/db_Dev";
+import {DevDataSource} from "../connections/dbDev";
 import {Task} from "../models/task";
 
 const cursor = DevDataSource.getRepository(Task)
